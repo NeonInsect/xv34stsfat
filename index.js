@@ -65,7 +65,7 @@ bot.on('message', (message) =>{
 
     if (message.content == '!ben'){
 
-        message.channel.sendMessage('BEN = Brainwashed Exo Neutralization Unit');
+        message.channel.sendMessage('BEN = Bionic Exo Neutralization Unit');
     }
 
     if (message.content == '!manual') {
@@ -105,7 +105,7 @@ bot.on('message', (message) =>{
 
     if (message.content == '!av3x') {
 
-        message.author.sendMessage('placeholder');
+        message.author.sendMessage('https://soundcloud.com/neon-insect/neoninsect-lltqslighterremix/s-JdBu6');
     }
 
     if (message.content == '!bfly') {
