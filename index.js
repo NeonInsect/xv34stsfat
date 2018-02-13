@@ -148,4 +148,4 @@ bot.on('message', (message) =>{
     }
 });
 
-bot.login(config.token); //this is in config.json
+bot.login(process.env.BOT_TOKEN); //this is in config.json
