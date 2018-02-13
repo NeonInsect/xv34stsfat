@@ -1,7 +1,4 @@
 const discord = require('discord.js'); //required to operate in discord
-const fs = require('fs'); //reqired for config.json
-const config = JSON.parse(fs.readFileSync('config.json', 'utf8')); //required for config.json
-
 var bot = new discord.Client();
 
 //commands
