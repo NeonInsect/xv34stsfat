@@ -143,6 +143,98 @@ bot.on('message', (message) =>{
         message.author.sendMessage('placeholder');
     
     }
+    
+    //characters//
+	
+	if (message.content =='!jamitch') {
+		
+		message.channel.sendMessage('Tape 01/20 - Your name is Mitch. You are a weapon dealer for the Resistance. You warez were used during the Battle Droid Leak in 2004');
+	}
+	
+	if (message.content =='!emko') {
+		
+		message.channel.sendMessage('Tape 02/20 - Your name is Emko. You are a former Imperial officer now working for the Resistance. You coordinated the Battle Droid Leak in 2004');
+	}
+	
+	if (message.content =='!cofa') {
+		
+		message.channel.sendMessage('Tape 03/20 - Your name is Collin Fandargo. You are a rogue scientist, involved in development and leak of information about the battle droids by the Ministry Of Science in 2004 - The Battle Droid Leak.');
+	}
+
+	if (message.content =='!sari') {
+		
+		message.channel.sendMessage('Tape 04/20 - Your name is S4r1. You are a hacker for the Resistance. You were involved in the Battle Droid Leak in 2004, obtaining the information sent by a rogue scientist');
+	}
+
+	if (message.content =='!lee') {
+		
+		message.channel.sendMessage('Tape 05/20 - Your name is Lee. You are a runner for the Resistance. You were involved in the Battle Droid Leak in 2004, by attacking and holding an imperial network node in Old Manhattan');
+	}
+
+	if (message.content =='!cam') {
+		
+		message.channel.sendMessage('Tape 06/20 - Your name is KV. You are a coder for the Resistance. You were involved in the Battle Droid Leak in 2004. Your Virus MyDOOM attacked several mailing server of the Imperial Network, distracting the net security from the actual leak');
+	}
+
+	if (message.content =='!ralf') {
+		
+		message.channel.sendMessage('Tape 07/20 - Your name is Ralf. You are the rogue scientist who sabotaged the circuits of the droids causing some dysfunctions during the Battle Droid Leak in 2004');
+	}
+
+	if (message.content =='!mue') {
+		
+		message.channel.sendMessage('Tape 08/20 - Your name is Mue. You are a hacker for the Resistance. You were involved in the Battle Droid Leak in 2004');
+	}
+
+	if (message.content =='!lemmi') {
+		
+		message.channel.sendMessage('Tape 09/20 - Your name is Lemmi. You were involved in the Battle Droid Leak in 2004 as a runner for the Resistance. Your were one of the reconnaisance forces to detect incoming Imperial defense forces to the node the hackers used to launch their virusses');
+	}
+
+	if (message.content =='!steg') {
+		
+		message.channel.sendMessage('Tape 10/20 - Your name is Steven. You are a radio broadcaster at Ruins/New Moscow. You were involved in the Battle Droid Leak in 2004 by first reporting the successful hacking attack to the exiled citizens in Ruins');
+	}	
+	
+	if (message.content =='!ropr') {
+		
+		message.channel.sendMessage('Tape 11/20 - Your name is Robbiemus Prime. A former headhunter for the Empire, who turned rogue during a turn in of a Resistance leader, causing a massacer at the turn in point.');
+	}
+	
+	if (message.content =='!stew') {
+		
+		message.channel.sendMessage('Tape 12/20 - Your name is Stephanie - a technican of the resistance, who is able to create connections between the imperial and resistance cybernetwork ');
+	}
+	
+	if (message.content =='!tron') {
+		
+		message.channel.sendMessage('Tape 14/20 - Your name is Tron. You are a privileged citizen of New Moscow living in Old Manhattan. During the Battle Droid Leak in 2004 you've hidden the squad attacking an imperial network node in your area.');
+	}
+	
+	if (message.content =='!aj') {
+		
+		message.channel.sendMessage('Tape 15/20 - Your name is AJ. You are a weapon smuggler for the Resistance. Your biggest coup was the steal some of the dysfunctional Droids in 2004, your wife Sydney told you about.');
+	}
+	
+	if (message.content =='!sydney') {
+		
+		message.channel.sendMessage('Tape 15/20 - Your name is Sydney. You heard about the transport of the dysfunctional droids that failed to work after the Battle Droid Leak in 2004, and gave those informations to your husband AJ, who is a smuggler.');
+	}
+	
+	if (message.content =='!valdez') {
+		
+		message.channel.sendMessage('Tape 16/20 - Your name is Valdez. You are an exiled technican, who examined the stolen Battle Droids after the Leak in 2004.');
+	}
+	
+	if (message.content =='!brunswick') {
+		
+		message.channel.sendMessage('Tape 17/20 - Your name is Brunswick. The famous runner, who owns a rocketlauncher called Betty. You accidentally destroyed a house during a run against the Empire in 2015. Luckily nobody was hurt');
+	}
+	
+	if (message.content =='!nico') {
+		
+		message.channel.sendMessage('Tape 18/20 - Your name is Nico. You are an exiled veteran of the Imperial Army, after you shot an officer, before he found out about your friend to go rogue and sabotaging imperial vehicles. After that you flee to Ruins in New Moscow.');
+	}
 });
 
 bot.login(process.env.BOT_TOKEN); //this is in config.json
