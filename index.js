@@ -116,7 +116,7 @@ bot.on('message', (message) =>{
     
     if (message.content == '!trauma') {
 
-        message.channel.sendMessage('placeholder');
+        message.channel.sendMessage('https://soundcloud.com/neon-insect/cogminded/s-lSt7l');
     
     }
 
@@ -140,7 +140,7 @@ bot.on('message', (message) =>{
 
     if (message.content == '!sixteen') {
 
-        message.author.sendMessage('placeholder');
+        message.author.sendMessage('https://soundcloud.com/neon-insect/nekros-next-try/s-Rm6b1');
     
     }
     
