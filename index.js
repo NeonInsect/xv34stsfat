@@ -5,7 +5,7 @@ var bot = new discord.Client();
 
 bot.on("guildMemberAdd", (GuildMember) =>{
 
-    GuildMember.sendMessage('https://soundcloud.com/neon-insect/aaadiscord1wav/s-MK3MZ')
+    GuildMember.sendMessage('https://soundcloud.com/neon-insect/aaadiscord1wav/s-MK3MZ');
     GuildMember.sendCode('My...name...is...BENtwo...\n' +
 'I am...an...Encrypted Message Transmission... Droid...-...short EMT...\n' +
 '\n' +
@@ -18,7 +18,7 @@ bot.on("guildMemberAdd", (GuildMember) =>{
 '\n'+
 'to access...these instructions...type "!manual"...into the command line...\n'+
 '\n'+
-'EMT...end of transmission')
+'EMT...end of transmission');
 
 });
 
@@ -70,7 +70,7 @@ bot.on('message', (message) =>{
 
     if (message.content == '!manual') {
 
-        message.channel.sendMessage('https://soundcloud.com/neon-insect/aaadiscord1wav/s-MK3MZ')
+        message.channel.sendMessage('https://soundcloud.com/neon-insect/aaadiscord1wav/s-MK3MZ');
         message.channel.sendCode('My...name...is...BENtwo...\n' +
 'I am...an...Encrypted Message Transmission... Droid...-...short EMT...\n' +
 '\n' +
@@ -83,7 +83,7 @@ bot.on('message', (message) =>{
 '\n'+
 'to access...these instructions...type "!manual"...into the command line...\n'+
 '\n'+
-'EMT...end of transmission')
+'EMT...end of transmission');
     }
 
     if (message.content == '!iloveyou') {
@@ -122,7 +122,7 @@ bot.on('message', (message) =>{
 
     if (message.content == '!discord') {
 
-        message.author.sendMessage('https://goo.gl/D88Wnu')
+        message.author.sendMessage('https://goo.gl/D88Wnu');
     
     }
 
@@ -208,7 +208,7 @@ bot.on('message', (message) =>{
 	
 	if (message.content == '!tron') {
 		
-		message.channel.sendMessage('Tape 14/20 - Your name is Tron. You are a privileged citizen of New Moscow living in Old Manhattan. During the Battle Droid Leak in 2004 you've hidden the squad attacking an imperial network node in your area.');
+		message.channel.sendMessage('Tape 14/20 - Your name is Tron. You are a privileged citizen of New Moscow living in Old Manhattan. During the Battle Droid Leak in 2004 you have hidden the squad attacking an imperial network node in your area.');
 	}
 	
 	if (message.content == '!aj') {
